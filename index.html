@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+  <title>Snake Game</title>
+  <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <h2>Welcome!</h2>
+  <br />
+  <div class="score">
+    <p>HighScore: <span id="highscore">0</span></p>
+    <p>Current Score: <span id="currentscore">0</span></p>
+  </div>
+
+  <div class="board-container">
+    <canvas id="board"></canvas>
+    <div id="game-over" class="game-over" hidden>Game Over</div>
+  </div>
+  <br /><br />
+
+  <button id="restart">Restart</button>
+  <footer>Made by Filipe Andrade👾</footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
